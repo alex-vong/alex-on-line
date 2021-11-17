@@ -1,0 +1,92 @@
+
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+@import 'developer-styles.css'; 
+/* comment this ^ out - when you are ready */
+
+
+/* SETTINGS */
+@import 'settings.css'; /* variables/ etc */
+
+
+/* STRUCTURE */
+@import 'structure.css';
+
+
+/* TYPOGRAPHY */
+@import 'typography.css';
+
+
+/* COMPONENTS */
+@import 'components.css';
+
+
+/* MODULES */
+@import 'modules/masthead.css';
+@import 'modules/about.css';
+@import 'modules/projects.css';
+
+
+
+
+
+
+html {
+	background-color: var(--white);
+
+
+}
+
+
+
+/* SITE SECTIONS */
+header {
+	position: sticky;
+	top: 0;
+   background-color: var(--white);
+   z-index:  100;
+
+   margin:  10px 0 30px;
+}
+
+
+.contact-me .quiet-voice a {
+   color:  var(--primary);
+   text-decoration: none;
+   font-weight: 500;
+}
+
+
+div.container {
+   display:  grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto;
+
+   gap:  20px;
+}
+
+/*.container * {
+   grid-column: 1 / span 3;
+}
+*/
+.container h2, .container p {
+   grid-column: 1 / span 3;
+}
+
+
+.container a {
+   display:  inline-block;
+}
+
+.home .container p.calm-voice {
+   margin-top:  10px;
+}
+
+
+.home .container p.quiet-voice:nth-of-type(2) {
+   font-weight:  500;
+   font-size:  18px;
+   margin-top: 20px;
+}

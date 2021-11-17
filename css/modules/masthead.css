@@ -1,0 +1,36 @@
+masthead .desktop {
+   display:  none;
+}
+
+header {
+   margin-top:  5px;
+}
+
+masthead {
+   display:  grid;
+   grid-template-columns: repeat(3, 1fr);
+
+
+/*   display:  flex;
+   flex-direction:  row;
+   justify-content: space-between;*/
+}
+
+masthead .intro-voice {
+   font-weight: 700;
+}
+
+
+
+
+masthead nav {
+   grid-column: 3;
+   display:  flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   gap:  2px;
+
+}
+
+
+

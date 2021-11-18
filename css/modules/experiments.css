@@ -1,0 +1,54 @@
+
+
+.experiments .attention-voice {
+   border-top:  1px solid var(--bg-light);
+   border-bottom:  1px solid var(--bg-light);
+   grid-column: 2 / span 10;
+
+   margin-bottom: 15px;
+}
+
+.experiments .sml-attention-voice {
+   color:  var(--dark);
+
+
+}
+
+.blogs {
+/*   display:  flex;
+   flex-direction:  column;
+*/
+
+   grid-column: 1 / span 12;
+   margin-top:  15px;
+}
+
+
+.article-card{
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   row-gap: 5px;
+
+}
+
+.article-card + .article-card {
+   margin:  15px 0;
+}
+
+.article-card h3:before {
+   content: '🌟'; 
+   margin: 10px 5px 10px 0;
+
+   grid-column: 1;
+}
+
+.article-card a:nth-of-type(1) {
+   grid-column: 1 / span 10;
+}
+
+
+
+.article-card a:nth-of-type(2) {
+   grid-column: 8 / span 12;
+   grid-row:  2;
+}

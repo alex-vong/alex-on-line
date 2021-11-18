@@ -27,6 +27,8 @@
 @import 'modules/masthead.css';
 @import 'modules/about.css';
 @import 'modules/projects.css';
+@import 'modules/experiments.css';
+
 
 
 
@@ -72,7 +74,7 @@ div.container {
 }
 */
 .container h2, .container p {
-   grid-column: 1 / span 3;
+   grid-column: 1 / span 12;
 }
 
 

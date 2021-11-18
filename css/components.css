@@ -1,0 +1,52 @@
+span {
+   color:  var(--primary);
+   font-weight: 500;
+}
+
+.section-heading {
+   margin-top:  15px;
+
+   border-top:  1px solid var(--bg-light);
+   border-bottom:  1px solid var(--bg-light);
+}
+
+
+section inner-column {
+/*   height:  90vh;*/
+
+
+
+   display:  flex;
+   flex-direction:  column;
+   justify-content: space-between;
+   gap: 20px;
+
+}
+
+
+
+
+
+.contact-me {
+   grid-column:  1/ span 3;
+   align-self: end;
+
+   border:  1px solid var(--primary);
+   background-color: var(--bg-light);
+
+   padding:  10px 15px;
+   margin:  15px 0;
+
+}
+
+
+.dark {
+   color: var(--dark);
+}
+
+
+
+
+
+
+

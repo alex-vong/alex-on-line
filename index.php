@@ -6,7 +6,7 @@
 		// router
 		$page = null;
 		if ( isset ($_GET['page']) ) {
-			$page = $_GET['page'];
+			$page = htmlspecialchars($_GET['page']);
 		} else {
 			$page = "home";
 
